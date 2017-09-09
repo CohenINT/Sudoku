@@ -1,0 +1,316 @@
+﻿html, body {
+    background-image: url('../img/mat1.jpg');
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+.batnmov
+{
+     margin:15px;
+     font-size:30px;
+     width:90px;
+     height:50px;
+     background-color:Highlight;
+     border-radius:20px;
+     outline:none;
+	 border: none;
+}
+.batnmov:hover {
+	
+	background-color:Salmon;
+	box-shadow: 0px 0px 10px 7px  #3d768a;
+
+}
+#the_name{
+    font-size:30px;
+    color:Highlight;
+    font-family:Comic Sans MS;
+	background-color:CadetBlue;
+    border-radius:55px;
+}
+
+#gameBoard {
+    width: 50%;
+    height: 80%;
+    border: 5px groove #000;
+    margin: 5% auto;
+    background-color: antiquewhite;
+
+}
+#img1{
+     width: 50%;
+    height: 70%;
+    left:380px;
+    top:170px;
+    position:absolute;
+
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font: bold 32px arial;
+
+}
+
+
+    input:hover {
+        background-color: aquamarine !important;
+    }
+
+    input.read {
+        color: blue;
+    }
+
+td {
+    width: 10.9%;
+    height: 70px;
+    border: 0px;
+	   outline:none;
+	border: none;
+}
+
+table {
+    width: 80%;
+    height: 80%;
+    border-collapse: collapse;
+    margin: 3% auto;
+}
+
+#clock {
+  background-color:white;
+    font-size: 35px;
+    border:5px solid  antiquewhite;
+	border-radius: 20%;
+
+}
+
+
+#h_b {
+    text-align: center;
+    position: relative;
+    top: 17%;
+}
+
+.b_show {
+    width: 60px;
+    height: 60px;
+    color: red;
+    font-size: 40px;
+    border-radius: 20%;
+    background-color:green;
+    margin-left:20px;
+    position:relative;
+    left:12%;
+	   outline:none;
+	border: none;
+}
+
+
+
+.btns
+{
+   position:absolute;
+   text-align:center;
+   left:10%;
+   top:11.5%;
+   margin-left:10em;
+      outline:none;
+	border: none;
+ 
+}
+
+
+#btn_e, #btn_m, #btn_h
+{
+    width:90px;
+    height:50px;
+    border-radius:44px;
+    margin-left:20px;
+	 font-size: 20px;
+      background-color:antiquewhite;
+	     outline:none;
+	border: none;
+}
+
+#btn_e:hover, #btn_m:hover, #btn_h:hover
+{
+    background-color:yellow;
+    
+}
+.ckgame {
+    width: 125px;
+    height: 60px;
+    color: blue;
+    font-size: 40px;
+    border-radius: 35%;
+    background-color:yellow;
+    margin-left:20px;
+    position:relative;
+    left:24%;
+}
+/************************************************/
+
+/*במקרה של זכייה*/
+#div1 {
+            width: 250px;
+            height: 80px;
+            font-weight: bold;
+background: -webkit-radial-gradient(center, ellipse cover, rgba(239,197,202,1) 0%,rgba(220,118,129,1) 26%,rgba(210,75,90,1) 40%,rgba(186,39,55,1) 48%,rgba(210,75,90,0.02) 56%,rgba(241,142,153,0.02) 100%); /* Chrome10-25,Safari5.1-6 */
+              position:absolute;
+            animation: mymove1 5s infinite;
+            border-radius:44px;
+            font-family:MV Boli;
+            text-align:center;
+            padding:1.5em;
+              transition: all 3s;
+            font-size:27px;
+            animation-delay:1s;  
+        }
+
+		@keyframes mymove1 {
+            from { left:500px;}
+            to {left: 500px; }
+			
+			  from { top: 0px;}
+                to {top: 1000px; }
+        }
+
+		/**1***/
+		#div2 {
+            width: 250px;
+            height: 80px;
+            font-weight: bold;
+	    	background: -webkit-radial-gradient(center, ellipse cover, rgba(239,197,202,1) 0%,rgba(220,118,129,1) 26%,rgba(210,75,90,1) 40%,rgba(186,39,55,1) 48%,rgba(210,75,90,0.02) 56%,rgba(241,142,153,0.02) 100%); /* Chrome10-25,Safari5.1-6 */
+             position:absolute;
+            animation: mymove2 5s infinite;
+            border-radius:44px;
+            font-family:MV Boli;
+            text-align:center;
+            padding:1.5em;
+              transition: all 3s;
+            font-size:27px;
+            animation-delay:1.5s;  
+        }
+
+		@keyframes mymove2 {
+                 from { left:750px;}
+            to {left: 750px; }
+			
+			  from { top: 0px;}
+                to {top: 1000px; }
+        }
+		/****2******/
+		#div3 {
+            width: 250px;
+            height: 80px;
+            font-weight: bold;
+	    	background: -webkit-radial-gradient(center, ellipse cover, rgba(239,197,202,1) 0%,rgba(220,118,129,1) 26%,rgba(210,75,90,1) 40%,rgba(186,39,55,1) 48%,rgba(210,75,90,0.02) 56%,rgba(241,142,153,0.02) 100%); /* Chrome10-25,Safari5.1-6 */
+              position:absolute;
+            animation: mymove3 5s infinite;
+            border-radius:44px;
+            font-family:MV Boli;
+            text-align:center;
+            padding:1.5em;
+              transition: all 3s;
+            font-size:27px;
+            animation-delay:1.5s;  
+        }
+
+		@keyframes mymove3 {
+            from { left: 900px;}
+            to {left: 900px; }
+			
+			  from { top: 0px;}
+                to {top: 1000px; }
+        }
+		/***3*****/
+		#div4 {
+            width: 250px;
+            height: 80px;
+            font-weight: bold;
+	       background: -webkit-radial-gradient(center, ellipse cover, rgba(239,197,202,1) 0%,rgba(220,118,129,1) 26%,rgba(210,75,90,1) 40%,rgba(186,39,55,1) 48%,rgba(210,75,90,0.02) 56%,rgba(241,142,153,0.02) 100%); /* Chrome10-25,Safari5.1-6 */
+              position:absolute;
+            animation: mymove4 5s infinite;
+            border-radius:44px;
+            font-family:MV Boli;
+            text-align:center;
+            padding:1.5em;
+              transition: all 3s;
+            font-size:27px;
+            animation-delay:1.5s;  
+        }
+
+		@keyframes mymove4 {
+            from { left: 1150px;}
+            to {left: 1150px; }
+			
+			  from { top: 0px;}
+                to {top: 1000px; }
+        }
+		
+		
+		
+/************************************************************/
+        #div1 {animation-timing-function: linear;}
+
+        #div2 {animation-timing-function: ease;}
+
+        #div3 {animation-timing-function: ease-in; }
+
+        #div4 {animation-timing-function: ease-out; }
+
+        #div5 {
+            animation-timing-function: ease-in-out;
+        }
+
+	
+
+
+
+#element {
+  font-size:50px;
+  font-weight: bold;
+  font-family:Segoe Script;
+  text-align: center center;
+  position:absolute;
+  height: 250px;
+  width: 250px;
+  margin: 3 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  left:45%;
+  top:40%;
+
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+
+    
+  
+       
+    
