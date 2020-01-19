@@ -86,7 +86,7 @@ rnd = Math.floor(Math.random() * max) + min;
 function getTableString(dim) {
     debugger;
 
-    var retString ='<div id="the_name">'+ '<button class="batnmov" id="movForm">' + "Form" + '</button>' + '<button class="batnmov" id="movCalc">' + "Calc" + '</button>'+"project javascrupt Meir Moshe Linoy"+'</div>'//כפתור מעבר בין דפים 
+    var retString ='<div id="the_name">'+"project javascrupt Meir Moshe Linoy"+'</div>'//כפתור מעבר בין דפים 
 	
 	//כפתורים של רמת קושי
 +'<div class="btns">' + '<button id="btn_e" value="' + 1 + '">' + "Easy" + '</button>' + '<br><br>' +
@@ -319,12 +319,9 @@ $(document).ready(function ()//זה רק העלה  ראשונית
         StartClockGame()
 
     });
-    $('#movCalc').on('click', function () {
-        window.location.href = "../clac/index.html";
-    })
-    $('#movForm').on('click', function () {
-        window.location.href = "../Form/index.html";
-    })
+
+
+ 
 
 
 });
